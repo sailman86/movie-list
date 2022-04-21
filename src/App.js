@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import './App.css';
-import './search.svg';
+import SearchIcon from './search.svg';
 
 const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=246bb98b'
 
@@ -25,7 +25,13 @@ const App = () => {
         <input
           placeholder='Search for movies'
           value="Batman"
-          onChiange={() => {}}/>
+          onChiange={() => {}}
+        />
+        <img
+          src={SearchIcon}
+          alt='search'
+          onClick={() => {}}
+        />
       </div>
     </div>
   );
