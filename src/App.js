@@ -29,7 +29,7 @@ const App = () => {
   // App
   return (
     <div className='app'>
-      
+
       <div className='banner'>
         <div className='container'>
           <h1>MovieLand</h1>

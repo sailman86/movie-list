@@ -113,10 +113,10 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
 
-  background: linear-gradient(45deg, #bf5f7a, #bf5fb9);
+  background: linear-gradient(45deg, #000000, #bf5fb9, #000000);
   filter: hue-rotate(100deg);
   animation: anim 18s linear infinite;
-  
+
   border-radius: 12px;
 }
 @keyframes anim{
