@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import SearchIcon from './search.svg';
 import './App.css';
 import MovieCard from './MovieCard';
-
+import Banner from './Banner';
 
 const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=246bb98b'
 
@@ -22,7 +22,7 @@ const App = () => {
 
   // call the SearchMovies
   useEffect(() => {
-    searchMovies('bat')
+    searchMovies('The Big')
   }, []);
 
 
@@ -30,11 +30,7 @@ const App = () => {
   return (
     <div className='app'>
 
-      <div className='banner'>
-        <div className='container'>
-          <h1>MovieLand</h1>
-        </div>
-      </div>
+      <Banner />
 
       <div className='search'>
         <input
